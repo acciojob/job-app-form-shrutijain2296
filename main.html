@@ -10,35 +10,39 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<form>
+	<form method = "post">
 		<div>
-			<label for = "name">Name</label><br>
-			<input type = "text" name = "#name" required><br><br>
+			<label for = "name">Name*</label><br>
+			<input type = "text" name = "name" id = "name" required><br><br>
 		</div>
 
 		<div>
-			<label for = "email">Email</label><br>
-			<input type = "email" name = "#email" required><br><br>
+			<label for = "email">Email*</label><br>
+			<input type = "email" name = "email" id = "email" required><br><br>
 		</div>
 
 		<div>
-			<label for = "gender">Gender</label><br>
-			Male<input type = "radio" name = "gender" required><br>
-			Female<input type = "radio" name = "gender" required><br><br>
+			<label for = "gender">Gender*</label><br>
+			<input type = "radio" id = "gender_m" required>
+			<label for = "gender_m">Male</label>
+			<input type = "radio" id = "gender_f" required>
+			<label for = "gender_f">Female</label>
 		</div>
-
+		<br>
 		<div>
-			<label for = "Laptop Brands">Laptop Brands</label>
-			<select name = "laptop brands" id = "laptop brands">
+			<label for = "laptop">Laptop Brands</label>
+			<select name = "laptop brands" id = "laptop">
 				<option value = "Apple">Apple</option>
 				<option value = "Asus">Asus</option>
 				<option value = "HP">HP</option>
 				
 		</div>
+		<br>
+		<br>
 		
 		<div>
-			<label for = "age">Age</label><br>
-			<input type = "number" name = "#age" required><br><br>
+			<label for = "age">Age*</label><br>
+			<input type = "text" name = "age" id = "age" required><br><br>
 		</div>
 
 		<div>
